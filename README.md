@@ -23,12 +23,13 @@ spring:
 
 ```
 ▶️ How to Run the Application
+
 ✅ Prerequisites
-Java 17+
+- Java 17+
 
-Maven 3.8+
+- Maven 3.8+
 
-IntelliJ IDEA (or other Java IDE)
+- IntelliJ IDEA (or other Java IDE)
 
 ## 💻 Run with Maven
 ```bash
@@ -61,6 +62,6 @@ Content-Type: application/json
 ### 2. 🔐 Call Secured Endpoint
 Use the JWT token in the Authorization header.
 ```http 
-GET http://localhost:8080/hello-admin
+GET http://localhost:8080/books
 Authorization: Bearer <your-token-here>
 ```
